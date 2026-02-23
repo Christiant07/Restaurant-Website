@@ -1,0 +1,51 @@
+<!-- general project guidelines:
+
+- create a home page of some restaurant either modelled after a place in berkeley or something from your imagination
+- from the home page link to at least two other webpages that each have a recipe for an item.
+
+Your recipe page should have the following content:
+- A free image of the finished dish under the h1 heading that you added earlier.
+- Under the image, it should have an appropriately sized “Description” heading followed by a paragraph or two describing the recipe.
+- Under the description, add an “Ingredients” heading followed by an unordered list of the ingredients needed for the recipe.
+- Finally, under the ingredients list, add a “Steps” heading followed by an ordered list of the steps needed for making the dish.
+- random
+Or not idk thats just a general guideline, to have some experimentation with html and css. 
+- Make sure you can navigate to any page from any original page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Caesars</title>
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+</head>
+<body>
+    <header>
+        <div class = "top">
+            <a href = "index.html"><h1 class = "heading-1" id = "name">Big Caesars</h1></a>
+            <a href = "index.html"><img src = "images/Screenshot 2026-02-17 at 11.59.46 PM.png" alt = "Big Caesars" id = "logo"></a>
+        </div>
+        <h2 class = "heading-1">Who Are We?</h2>
+        <p class = "para">Big Caesars is a modern pizza chain focused on high-protein, better-for-you options. We combine traditional pizza craftsmanship with fitness-driven nutrition to create meals that satisfy cravings while supporting an active lifestyle. Checkout  our <a href = "https://www.instagram.com/LittleCaesars">instagram</a> page for pictures and more!</p>
+        <h2 class = "heading-1">Order Now!</h2>
+    </header>
+    <div class = "menu-options">
+        <div class = "pizza">
+            <h3>Protein Power Pizza</h3>
+            <img src = "images/Meat-Lovers-Pizza-8.jpeg" alt = "protein-pizza" class = "pizza-pic">
+            <a href = "protein.html">Click here for the recipe</a>
+        </div>
+        <div class = "pizza">
+            <h3>Herbivore Hustle Pizza</h3>
+            <img src = "images/protein-pizza-2.webp" alt = "veggie-pizza" class = "pizza-pic">
+            <a href = "veggie.html">Click here for the recipe</a>
+        </div>
+        <div class = "pizza">
+            <h3>Plain Protein Pizza</h3>
+            <img src = "images/IMG_8017.jpg" alt = "plain-pizza" class = "pizza-pic">
+            <a href = "plain.html">Click here for the recipe</a>
+        </div>
+    </div>
+</body>
+</html>
